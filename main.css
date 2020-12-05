@@ -6,10 +6,10 @@ body {
 }
 
 h1 {
-    color: #2a5884;
+    color: white;
     font-size: 2.0em;
     margin: 0 0 0 0;
-    padding: 0;
+    padding: 0;    
 }
 
 h2 {
@@ -17,8 +17,10 @@ h2 {
     font-size: 1.7em;
     margin: 0 0 0 0;
     padding: 0;
+    text-align: center;
 }
-h3{
+
+h3 {
     color: #2a5884;
 }
 
@@ -27,16 +29,6 @@ p {
     color: white;
     margin: 0 0 0 0;
     padding: 0;
-}
-
-#logo {
-    height: 75px;
-    width: 225px;    
-}
-
-nav {
-    margin: 0 0 0 0;
-    padding: 3em;
 }
 
 .hero-image {
@@ -51,10 +43,9 @@ nav {
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%;    
     color: white;
+    margin: 0 10em;
 }
 
 .hero-text button {
@@ -63,10 +54,80 @@ nav {
     display: inline-block;
     padding: 10px 25px;
     color: white;
-    background-color: green;
-    text-align: center;
+    background-color: green;    
     cursor: pointer;
+    font-size: 16pt;
+    font-weight: bold;    
 }
+
 .main {
-    margin: 5em;
+    margin: 3em 10em;    
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    height: 300px;
+    width: 400px;    
+    margin: 3em 5%;    
+}
+.product img {
+    height: 240px;
+    width: 240px;
+}
+nav {
+    margin: 0 0 0 0;
+    padding: 3em;
+}
+
+#logo {
+    height: 75px;
+    width: 225px;
+    margin: 0 5em;    
+    vertical-align: middle;
+}
+
+#navbar ul {
+    list-style: none;
+    vertical-align: middle;
+}
+
+#navbar {
+    display: inline-block;    
+    vertical-align: middle;    
+    height: 100px;
+}
+
+#navbar li {
+    display: inline-block;
+    width: 140px;
+    height: 30px;    
+    margin: 10px 10px;
+    text-align: center;
+    padding: 5px 10px;
+    color: #2a5884;
+    font-size: 14pt;
+    font-weight: bolder;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+footer {
+    background-color: #3A3531;
+    color: white;
+    margin: auto;            
+}
+footer ul {
+    list-style: none;                
+}
+footer li {
+    display: inline-block;    
+    height: 2em;    
+    padding: 30px 10px 10px 10px;    
+}
+footer a {
+    color: white;
 }
